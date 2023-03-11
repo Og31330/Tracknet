@@ -137,7 +137,7 @@ while(True):
 
 			x = int(circles[0][0][0])
 			y = int(circles[0][0][1])
-			print currentFrame, x,y
+			print (currentFrame, x,y)
 
 			#push x,y to queue
 			q.appendleft([x,y])   
@@ -175,4 +175,4 @@ while(True):
 # everything is done, release the video
 video.release()
 output_video.release()
-print "finish"
+print ("finish")
